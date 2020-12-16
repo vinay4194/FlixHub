@@ -1,0 +1,294 @@
+*{
+
+   margin:0;
+   padding:0;
+   background-color: #172742;
+}
+.content-wrap{
+  
+   margin:0 100px;
+}
+.header{
+   display:flex;
+   
+   flex-wrap: wrap;
+   margin-bottom:10px;
+   
+}
+.logo{
+   width:160px;
+   
+}
+.h-l-container{
+   flex-basis: 20%;
+   margin-top:10px;
+}
+.h-r-container{
+   text-align: center;
+   margin-top:-40px;
+   ;
+  
+   flex-basis: 70%;
+ 
+   margin-left:760px;
+
+
+}
+.h-r-container a{
+   text-decoration: none;
+   color:white;
+}
+
+
+
+
+.btn-grad {
+   margin: 15px;
+   padding: 5px 10px;
+   text-align: center;
+   font-family: 'Arvo', serif;
+   font-size: 17px;
+   transition: 200ms;
+   background-size: 200% auto;
+   color: white;            
+   
+   border-radius: 10px;
+   
+ }
+
+ .btn-grad:hover {
+   background-image: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%);
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+   transition:all ease-in-out 600ms;
+ }
+
+
+
+
+
+/*--------------Content------------*/
+.content{
+   
+  font-family: 'Roboto Slab', serif;
+  margin-bottom:30px;
+}
+.info-container{
+   
+   background-color: white;
+   box-shadow: 0 0 2em;
+   padding:20px;
+   width:500px;
+   border-radius: 10px;
+   
+   
+}
+.info-form{
+   background-color: white;
+}
+.info-table{
+   background-color: white;
+}
+.info-table td{
+   background-color: white;
+}
+.info-box{
+   border:1px solid #000000;
+   background-color: white;
+   border-radius: 6px;
+   padding: 5px;
+   font-size: 15px;
+   margin-left:10px;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+.change-pass-btn{
+   padding:5px 10px;
+   border:1px solid;
+   border-radius: 5px;
+   background-color:rgb(218, 218, 218);
+   color:black;
+   font-size: 15px;
+   font-weight: bold;
+   font-family: 'Roboto Slab', serif;
+   margin-top: 10px;
+}
+.change-pass-btn:hover{
+   background-color: #172742;;
+   color:white;
+
+}
+.common-input{
+   margin-left: 10px;
+   font-size: 17px;
+   padding:5px;
+   margin-bottom:6px;
+   background-color: white;
+   width:350px;
+   height:22px;
+   border:1px solid #000000;
+   border-radius: 5px;
+}
+.content-div{
+   color:white
+}
+
+   
+
+hr{
+   margin-bottom:20px;
+   color: #de3737;
+}
+
+/*======================Media Queries==============*/
+
+@media only screen and (max-width:1382px)
+{
+   .h-r-container{
+      
+    margin-left:200px;
+   }
+   .btn-grad {
+      margin: 5px;
+      padding: 5px 10px;
+      
+      
+    }
+}
+@media only screen and (max-width:734px)
+{
+   .btn-grad {
+      margin: 5px;
+      padding: 2px;
+      
+      
+    }
+    .content-wrap{
+  
+      margin:0 60px;
+   }
+    .h-l-container{
+      flex-basis: 100%;
+      margin-top:10px;
+      text-align: center;
+   }
+   .h-r-container{
+      text-align: center;
+      margin-top:25px;
+      margin-bottom: 20px;
+   
+      flex-basis: 100%;
+      padding:0px;
+      margin-left:0px;
+   
+   
+   }
+   .common-input{
+      margin-left: 10px;
+      font-size: 15px;
+      padding:5px;
+      margin-bottom:6px;
+      background-color: white;
+      width:250px;
+      height:18px;
+      border:1px solid #000000;
+      border-radius: 5px;
+   }
+   .info-table td{
+   width:130px;
+   }
+}
+@media only screen and (max-width:734px)
+{
+   .btn-grad {
+      margin: 5px;
+      padding: 2px;
+      
+      
+    }
+    .content-wrap{
+  
+      margin:0 30px;
+   }
+    .h-l-container{
+      flex-basis: 100%;
+      margin-top:10px;
+      text-align: center;
+   }
+   .h-r-container{
+      text-align: center;
+      margin-top:25px;
+      margin-bottom: 20px;
+   
+      flex-basis: 100%;
+      padding:0px;
+      margin-left:0px;
+   
+   
+   }
+   .common-input{
+      margin-left: 10px;
+      font-size: 15px;
+      padding:2px;
+      
+      
+      width:250px;
+      
+   }
+   .small-font{
+      
+      font-size: 13px;
+   }
+} 
+@media only screen and (max-width:450px)
+{
+   .btn-grad {
+      margin: 5px;
+      padding: 2px;
+      
+      
+    }
+    .content-wrap{
+  
+      margin:0 30px;
+   }
+    .h-l-container{
+      flex-basis: 100%;
+      margin-top:10px;
+      text-align: center;
+   }
+   .h-r-container{
+      text-align: center;
+      margin-top:25px;
+      margin-bottom: 20px;
+   
+      flex-basis: 100%;
+      padding:0px;
+      margin-left:0px;
+   
+   
+   }
+   .common-input{
+      margin-left: 10px;
+      font-size: 15px;
+      padding:2px;
+      
+      
+      width:170px;
+      height:18px;
+      
+   }
+   .small-font{
+      
+      font-size: 13px;
+   }
+   .change-pass-btn{
+      padding:3px 7px;
+      
+      
+      font-size: 14px;
+      
+      margin-top: 10px;
+   }
+} 
